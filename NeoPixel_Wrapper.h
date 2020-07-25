@@ -53,7 +53,8 @@
 /// determine the strip order. The wrapper subclasses the
 /// Adafruit_NeoPixel object which makes it a safe operation
 /// to cast the wrapper to a Adafruit_NeoPixel. It inherits
-/// the Adafruit_NeoPixel as protected to 
+/// the Adafruit_NeoPixel as protected member to hide unwanted
+/// functionality
 class NeopixelWrapper : protected Adafruit_NeoPixel
 {
 protected:
